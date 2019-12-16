@@ -9,7 +9,6 @@ angular.module('fish-pond')
   bindings: {
     fish: '<'
   },
-  controller: 'FishTableCtrl',
   template: `
     <div ng-click="$ctrl.toggleDescription()">
       <span class="fish-name">Nemo</span>

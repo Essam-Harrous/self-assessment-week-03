@@ -1,5 +1,6 @@
 angular.module('fish-pond')
 .component('fishTable', {
+  controller: 'fishCtrl',
   bindings: {
     fishes: '<'
   },

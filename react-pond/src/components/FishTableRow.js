@@ -6,7 +6,7 @@ class FishTableRow extends React.Component {
     };
   }
 
-  // Currently, the image being displayed is hardcoded from tinyurl.com 
+  // Currently, the image being displayed is hardcoded from tinyurl.com
   render() {
     return (
       <tr onClick={() => this.setState({showDescription: !this.state.showDescription})}>
